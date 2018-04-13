@@ -3,7 +3,7 @@
     
     $email_from='lanelarochelle@lanelarochelle.com';
     $email_subject="Request From lanelarochelle.com";
-    $email_body="The email of: $visitor_email would like to get in contact with you! .\n";
+    $email_body="User Email: $visitor_email.\n"; 
     $email_to="lanegotcha7@gmail.com";
 
     $headers= "From: $email_from \r\n";
