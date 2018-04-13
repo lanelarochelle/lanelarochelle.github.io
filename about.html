@@ -1,13 +1,9 @@
-<?php 
-    if(filter_has_var(INPUT_POST, 'submit')){
-         echo 'submitted';
-    }
-?>
 <!DOCTYPE html>
 <html>
     <head>
         <meta name="viewport" content="width=device-width">
         <title>Lane Larochelle | About </title>
+        <link rel="shortcut icon" href="825727_SjZ_icon.ico" />
         <link rel="stylesheet" type="text/css" href="styl2.css"/>
     </head>
     
@@ -37,7 +33,7 @@
         <section id="newsletter">
             <div class="container">
                 <h1>Request a Resume or Quote</h1>
-                <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" >
+                <form method="post" action="" >
                     <!Code for form processing goes here>
                     <input type="email" placeholder="Enter Email..." name="email" value="">
                     <button type="submit" name="submit" class="button_1">Request</button>
