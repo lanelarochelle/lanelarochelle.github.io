@@ -1,23 +1,38 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title>Lane Larochelle | Welcome</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    
+    <body>
+       <div class="navigation">
+            <ul id="menu1">
+                <li><a href="about.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="sevices.hmtl">Services</a></li>
+            </ul>
+            
+            <ul id="menu2">
+                <li><a href="filler">Experiments</a></li>
+            </ul>
+        </div>
+    
+        <div class="jumbotron">
+            <h1>Hello  <span style="color: slategray; font-size:40px">|</span>  Bonjour  <span style="color: slategrey; font-size:40px">|</span>  Hola </h1>
+            <h4>This is where I put everything that I've ever done with web developement.</h4>
+        </div>
+    
+        <div class="main">
+            <h2>Home</h2>
+            <p>My Name is Lane Larochelle. I am a Computer Engineering graduate from the University of Saskatchewan. I have a keen Interest in software devolpement of all kinds. I try to get some experience any where I can whether it's side projects, assignments or helping friends trouble shoot. </p>
+            <p>I have lots of experience with Java, Python, C, Matlab, and Verilog. I've been trying to expand my horizons with some MYSQL, HTML, CSS, PHP and JavaScript. By no means am I master of web development, but I'm out here and I'm trying so give me that. Not even my first website so imagine how bad the first one was!</p>
+        </div>
+        
+        <h4 align="middle">
+            <img border="0" src="github-mark.png" align="middle">
+             <a href="https://github.com/lanelarochelle">lanelarochelle</a>
+           </h4>
+    </body>
+</html>
