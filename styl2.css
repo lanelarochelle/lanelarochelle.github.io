@@ -144,8 +144,6 @@ footer {
         float: none;
         text-align: center;
         width= 100%;
-        margin-left:3%;
-        margin-right:3%;
     }
     
     header{
@@ -163,10 +161,10 @@ footer {
     }
     
     #boxes .box{
-        margin-top: 7%;
-        float: left;
+        margin-top: 5%;
+        margin-right: 5%;
+        float:none;
         width: 100%;
-        padding: 1%;
         text-align: center; 
     }
 
